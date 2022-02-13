@@ -2,6 +2,6 @@ eclipse
 .metadata
 .classpath
 .project
-*class
+*.class
 TPs/.settings
 TPs/bin
