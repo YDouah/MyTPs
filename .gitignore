@@ -1,5 +1,1 @@
-.metadata/
-*.class
-eclipse
-.classpath
-.project
+eclipse/
