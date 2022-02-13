@@ -3,4 +3,5 @@ eclipse
 .classpath
 .project
 *class
-TPs/.setting
+TPs/.settings
+TPs/bin
