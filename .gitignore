@@ -1,1 +1,4 @@
-eclipse/
+eclipse
+.metadata
+.classpath
+.project
