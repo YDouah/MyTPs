@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="ma/education/tp1/introduction/" kind="src" path="TPs/src"/>
+	<classpathentry kind="src" path="TPs/src/ma/education/tp1/introduction"/>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/100/0/.cp/lib/antsupportlib.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/101/0/.cp/lib/antdebug.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/101/0/.cp/lib/loggers.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/101/0/.cp/lib/remote.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/102/0/.cp/lib/antrunner.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/102/0/.cp/lib/remoteAnt.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/127/0/.cp/ant_tasks/resources-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/305/0/.cp/ant_tasks/emf.ant.tasks.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/325/0/.cp/ant_tasks/importer.ecore.tasks.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/326/0/.cp/ant_tasks/importer.java.tasks.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/327/0/.cp/ant_tasks/importer.rose.tasks.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/362/0/.cp/ant_tasks/director-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/367/data/-1489880788/content.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/369/0/.cp/lib/jarprocessor-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/371/0/.cp/ant_tasks/metadataRepository-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/374/0/.cp/ant_tasks/pdepublishing-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/375/data/listener_1925729951/artifacts.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/375/data/listener_1925729951/content.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/377/0/.cp/lib/repository-tools-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/396/0/.cp/ant_tasks/helpbase-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/407/0/.cp/jdtCompilerAdapter.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/552/0/.cp/webserviceutils.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/594/0/.cp/lemminx-maven.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/615/0/.cp/jars/maven-war-plugin-2.1.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/712/0/.cp/lib/apitooling-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/716/0/.cp/ant_tasks/pde-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/801/0/.cp/language-servers/server/org.eclipse.lemminx-uber.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/802/0/.cp/ant-lib/anttasks.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/883/0/.cp/lib/xinclude.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="eclipse/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="TPs/bin"/>
+</classpath>
