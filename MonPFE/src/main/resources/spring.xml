@@ -9,6 +9,6 @@
 	http://www.springframework.org/schema/util
 	http://www.springframework.org/schema/util/spring-util.xsd">
 	
-	<bean id="clt" class="ma.education.tp3.Client" scope="Singleton"></bean>
+	<bean id="clt" class="ma.education.tp3.Client"></bean>
 
 </beans>
