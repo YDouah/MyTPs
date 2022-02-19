@@ -9,6 +9,11 @@
 	http://www.springframework.org/schema/util
 	http://www.springframework.org/schema/util/spring-util.xsd">
 	
-	<bean id="clt" class="ma.education.tp3.Client"></bean>
+
+	
+	<bean id="clt" class="ma.education.tp3.Client" scope="singleton">
+<property name="id" value="2"/>
+<property name="name" value="clt2"/>
+</bean>
 
 </beans>

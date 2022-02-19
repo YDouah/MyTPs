@@ -10,11 +10,14 @@ public class TestSpringIocApplicationContext {
 	public static void main(String[] args) {
 		
 		ApplicationContext appContext = new ClassPathXmlApplicationContext("spring.xml");
-//		Client c = (Client ) appContext.getBean("clt");
-
-		Client c1 = (Client ) appContext.getBean("clt");
-		Client c2 = (Client ) appContext.getBean("clt");
+		Client c = (Client ) appContext.getBean("clt");
 		
+		System.out.println(c.id);
+		System.out.println(c.name);
+
+//		Client c1 = (Client ) appContext.getBean("clt");
+//		Client c2 = (Client ) appContext.getBean("clt");
+//		
 		
 //		constructor de la class Client sera appele par 
 //		ApplicationContext appContext = new ClassPathXmlApplicationContext("spring.xml");
