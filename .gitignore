@@ -5,3 +5,4 @@ eclipse
 *.class
 TPs/.settings
 TPs/bin
+POO/*
