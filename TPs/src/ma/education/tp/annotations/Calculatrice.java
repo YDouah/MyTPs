@@ -1,7 +1,6 @@
-package ma.education.tp6.annotations;
+package ma.education.tp.annotations;
 
 @Programmer(id=10, name= "Said ALAMI")
 public class Calculatrice {
-	
 
 }

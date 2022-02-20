@@ -21,5 +21,11 @@ public class TestSpringIocBeanFactory {
 		
 		Client client = (Client) beanFactory.getBean("clt");
 	}
+	
+//	BeanFactory est la version basic de IOC Container
+//		BeanFactory instancier les objects a la demande lorsque la methode getBean() est appelle	
+	
+//	ApplicationContext est l'extend de BeanFactory
+//		ApplicationContext cree les object meme si on n'appelle pas la methode getBean()
 
 }

@@ -9,11 +9,20 @@
 	http://www.springframework.org/schema/util
 	http://www.springframework.org/schema/util/spring-util.xsd">
 	
-
-	
 	<bean id="clt" class="ma.education.tp3.Client" scope="singleton">
-<property name="id" value="2"/>
-<property name="name" value="clt2"/>
+	<property name="id" value="2"/>
+	<property name="name" value="clt2"/>
 </bean>
+
+	<bean id="controller" class="cigma.pfe.controllers.ClientController" scope="prototype">
+	<constructor-arg ref="service"/>
+</bean>
+	<bean id="service" class="cigma.pfe.services.ClientServiceImpl" scope="prototype">
+	<constructor-arg ref="repository"/>
+	</bean>
+	
+	<bean id="repository" class="cigma.pfe.repositories.ClientRepositoryImpl" scope="prototype">
+</bean>
+	
 
 </beans>

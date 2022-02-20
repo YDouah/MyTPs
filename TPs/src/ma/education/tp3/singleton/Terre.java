@@ -1,4 +1,4 @@
-package ma.education.tp4.singleton;
+package ma.education.tp3.singleton;
 
 public class Terre {
 	double distanceToSoleil;

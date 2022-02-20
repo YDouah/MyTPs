@@ -1,6 +1,6 @@
 package ma.education.tp5.collections;
 
-public class Client {
+public class Client{
 	Integer code;
 	String name;
 	
@@ -9,6 +9,8 @@ public class Client {
 		this.name = name;
 	}
 	
+	
+	@Override
 	public String toString() {
 		return "Client {" + 
 				"code=" + code + 
