@@ -15,14 +15,12 @@
 </bean>
 
 	<bean id="controller" class="cigma.pfe.controllers.ClientController" scope="prototype">
-	<constructor-arg ref="service"/>
-</bean>
-	<bean id="service" class="cigma.pfe.services.ClientServiceImpl" scope="prototype">
-	<constructor-arg ref="repository"/>
+		<constructor-arg ref="service"/>
 	</bean>
-	
+	<bean id="service" class="cigma.pfe.services.ClientServiceImpl" scope="prototype">
+		<constructor-arg ref="repository"/>
+	</bean>
 	<bean id="repository" class="cigma.pfe.repositories.ClientRepositoryImpl" scope="prototype">
-</bean>
-	
-
+	</bean>
 </beans>
+

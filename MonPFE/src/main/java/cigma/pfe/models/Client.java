@@ -1,31 +1,16 @@
 package cigma.pfe.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import org.hibernate.annotations.GeneratorType;
-
-import javax.persistence.*;
-
-@Getter
-@Setter
-@Entity(name="TClients")
 public class Client {
+    public long id;
+    public String name;
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Client(long id, String name){
+        this.id = id;
+        this.name = name;
 
-	public long id;
-	public String name;
+    }
 
-	public Client(long id, String name) {
+    public Client(){
 
-		this.id = id;
-		this.name = name;
-	}
-
-	public Client() {
-
-	}
-
+    }
 }
