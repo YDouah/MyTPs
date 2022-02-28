@@ -1,8 +1,7 @@
-package cigma.pfe.services;
+package ma.cigma.pfe.service;
 
-import cigma.pfe.models.Client;
-import cigma.pfe.repositories.ClientRepository;
-import cigma.pfe.repositories.ClientRepositoryImpl;
+import ma.cigma.pfe.models.Client;
+import ma.cigma.pfe.repositories.ClientRepository;
 
 public class ClientServiceImpl implements ClientService{
     ClientRepository clientRepository;

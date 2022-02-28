@@ -1,8 +1,7 @@
-package cigma.pfe.controllers;
+package ma.cigma.pfe.presentation;
 
-import cigma.pfe.models.Client;
-import cigma.pfe.services.ClientService;
-import cigma.pfe.services.ClientServiceImpl;
+import ma.cigma.pfe.models.Client;
+import ma.cigma.pfe.service.ClientService;
 
 public class ClientController {
     ClientService clientService;

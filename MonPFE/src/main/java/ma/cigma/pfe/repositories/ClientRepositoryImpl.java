@@ -1,6 +1,6 @@
-package cigma.pfe.repositories;
+package ma.cigma.pfe.repositories;
 
-import cigma.pfe.models.Client;
+import ma.cigma.pfe.models.Client;
 
 public class ClientRepositoryImpl implements ClientRepository {
 

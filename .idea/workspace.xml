@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9cd498b-30cd-425a-be41-d8383a48c798" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MonPFE/src/main/java/ma/cigma/pfe/ApplicationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonPFE/src/main/java/ma/cigma/pfe/dao/ClientDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonPFE/src/main/java/ma/cigma/pfe/dao/IClientDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonPFE/src/main/java/ma/cigma/pfe/models/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonPFE/src/main/java/ma/cigma/pfe/repositories/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonPFE/src/main/java/ma/cigma/pfe/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/TPs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/education.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp1/tp1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp6/tp6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPs/src/ma/ma.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonPFE/src/main/java/cigma/pfe/MonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonPFE/src/main/java/cigma/pfe/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MonPFE/src/main/java/ma/cigma/pfe/presentation/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonPFE/src/main/java/cigma/pfe/models/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonPFE/src/main/java/cigma/pfe/repositories/ClientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonPFE/src/main/java/cigma/pfe/repositories/ClientRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MonPFE/src/main/java/ma/cigma/pfe/repositories/ClientRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonPFE/src/main/java/cigma/pfe/services/ClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonPFE/src/main/java/cigma/pfe/services/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MonPFE/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonPFE/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MonPFE/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPs/src/ma/education/tp6/annotations/Calculatrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp6/annotations/Calculatrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPs/src/ma/education/tp6/annotations/CalculatriceMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp6/annotations/CalculatriceMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPs/src/ma/education/tp6/annotations/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp6/annotations/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPs/src/ma/education/tp6/annotations/TestReflectionAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/TPs/src/ma/education/tp6/annotations/TestReflectionAnnotation.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25kND2Z1IVC8DfZpDxqNDoLjzzn" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9cd498b-30cd-425a-be41-d8383a48c798" name="Changes" comment="" />
+      <created>1646067003524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646067003524</updated>
+    </task>
+    <servers />
+  </component>
+</project>

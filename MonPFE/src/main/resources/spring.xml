@@ -14,13 +14,13 @@
 	<property name="name" value="clt2"/>
 </bean>
 
-	<bean id="controller" class="cigma.pfe.controllers.ClientController" scope="prototype">
+	<bean id="controller" class="ma.cigma.pfe.presentation.ClientController" scope="prototype">
 		<constructor-arg ref="service"/>
 	</bean>
-	<bean id="service" class="cigma.pfe.services.ClientServiceImpl" scope="prototype">
+	<bean id="service" class="ma.cigma.pfe.service.ClientServiceImpl" scope="prototype">
 		<constructor-arg ref="repository"/>
 	</bean>
-	<bean id="repository" class="cigma.pfe.repositories.ClientRepositoryImpl" scope="prototype">
+	<bean id="repository" class="ma.cigma.pfe.repositories.ClientRepositoryImpl" scope="prototype">
 	</bean>
 </beans>
 
