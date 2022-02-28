@@ -1,6 +1,6 @@
 package ma.education.tp5.annotations;
 
-public class TestReflectionAnnoration {
+public class TestReflectionAnnotation {
 
 	public static void main(String[] args) {
 		
