@@ -5,15 +5,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
-    <bean id="controller" class="ma.cigma.pfe.presentation.ClientController" scope="prototype">
-        <property name="clientService" ref="service"/>
+    <bean id="controller" class="ma.cigma.pfe.presentation.ClientController">
+        <property name="service" ref="service"/>
     </bean>
-    <bean id="service" class="ma.cigma.pfe.service.ClientServiceImpl" scope="prototype">
-        <property name="clientRepository" ref="repository"/>
+    <bean id="service" class="ma.cigma.pfe.service.ClientServiceImpl" >
+        <property name="dao" ref="daoId"/>
     </bean>
-    <bean id="repository" class="ma.cigma.pfe.repositories.ClientRepositoryImpl" scope="prototype">
-    </bean>
-    <bean id="client" class="ma.cigma.pfe.models.Client">
+    <bean id="daoId" class="ma.cigma.pfe.dao.ClientDaoImpl">
     </bean>
 </beans>

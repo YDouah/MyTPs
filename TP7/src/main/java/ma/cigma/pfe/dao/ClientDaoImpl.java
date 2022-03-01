@@ -11,9 +11,6 @@ public class ClientDaoImpl implements IClientDao {
     EntityManagerFactory emf = Persistence.createEntityManagerFactory("unit_clients");
     EntityManager em = emf.createEntityManager();
 
-    public ClientDaoImpl() {
-    }
-
     @Override
     public boolean save(Client c) {
         em.getTransaction().begin();

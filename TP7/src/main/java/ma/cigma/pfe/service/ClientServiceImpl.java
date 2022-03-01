@@ -1,13 +1,13 @@
 package ma.cigma.pfe.service;
 
+import lombok.Setter;
 import ma.cigma.pfe.dao.IClientDao;
 import ma.cigma.pfe.models.Client;
-import org.springframework.beans.factory.annotation.Autowired;
 
+@Setter
 public class ClientServiceImpl implements IClientService{
 
-    @Autowired
-    private IClientDao iClientDao;
+    private IClientDao dao;
 
     public ClientServiceImpl(){
         System.out.println("creation bean dao");
@@ -16,9 +16,5 @@ public class ClientServiceImpl implements IClientService{
     @Override
     public Client save(Client c) {
         return null;
-    }
-
-    public IClientDao getIClientDao() {
-        return iClientDao;
     }
 }

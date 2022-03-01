@@ -9,8 +9,6 @@ public class ApplicationRunner {
 
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-        ClientController ctrl = (ClientController) context.getBean("client");
-        Client clt = new Client("OMAR");
-        ctrl.save(clt);
+        ClientController ctrl = (ClientController) context.getBean(ClientController.class);
     }
 }
