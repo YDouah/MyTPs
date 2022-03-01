@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1fd842e-c92a-4037-9dac-bcb52cff230d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TP8/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/app.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/ApplicationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/doa/ClientDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/doa/FactureDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/doa/IClientDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/doa/IFactureDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/models/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/models/Facture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/presentation/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/presentation/FactureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/FactureServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/IClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/IFactureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP8/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
