@@ -10,8 +10,8 @@ import ma.cigma.pfe.service.IFactureService;
 public class FactureController {
     private IFactureService factureService;
 
-    public Facture create(Facture facture) {
-        return factureService.create(facture);
+    public void create(Facture facture) {
+        factureService.create(facture);
     }
 
     public void modify(Facture facture) {

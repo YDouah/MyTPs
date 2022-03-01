@@ -5,12 +5,23 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="controller" class="ma.cigma.pfe.presentation.ClientController">
-        <property name="service" ref="service"/>
+
+    <!--    Client Beans-->
+    <bean id="Controller" class="ma.cigma.pfe.presentation.ClientController">
+        <property name="clientService" ref="clientService"/>
     </bean>
-    <bean id="service" class="ma.cigma.pfe.service.ClientServiceImpl" >
+    <bean id="clientService" class="ma.cigma.pfe.service.ClientServiceImpl" >
         <property name="dao" ref="daoId"/>
     </bean>
     <bean id="daoId" class="ma.cigma.pfe.dao.ClientDaoImpl">
     </bean>
+
+    <!--    Facture Beans-->
+    <bean id="factureCtrl" class="ma.cigma.jee.presentation.FactureController">
+        <property name="factureService" ref="factureServiceId"/>
+    </bean>
+    <bean id="factureService" class="ma.cigma.jee.service.FactureServiceImpl">
+        <property name="factureDao" ref="factureDaoId"/>
+    </bean>
+    <bean id="factureDaoId" class="ma.cigma.jee.dao.FactureDaoImpl"/>
 </beans>
