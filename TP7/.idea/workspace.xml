@@ -5,55 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1fd842e-c92a-4037-9dac-bcb52cff230d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jpb/persistence-units.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/ApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/ApplicationRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/ClientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/ClientDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/IClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/IClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/app.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/ApplicationRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/dao/ClientDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/dao/IClientDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/models/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/presentation/ClientController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/IClientService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/resources/log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/resources/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/target/classes/log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/target/classes/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -9,4 +9,6 @@ public class ClientController {
 
     private IClientService service;
 
+    public void save(Client clt) {
+    }
 }
