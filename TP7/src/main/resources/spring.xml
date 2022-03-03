@@ -7,5 +7,6 @@
     <bean id="ServiceID" class="ma.cigma.pfe.service.ClientServiceImpl">
         <property name="dao" ref="DaoID"/>
     </bean>
-    <bean id="DaoID" class="ma.cigma.pfe.dao.ClientDaoImpl"></bean>
+    <bean id="DaoID" class="ma.cigma.pfe.dao.ClientDaoImpl">
+    </bean>
 </beans>
