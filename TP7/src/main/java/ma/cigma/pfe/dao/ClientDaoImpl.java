@@ -8,7 +8,7 @@ import javax.persistence.Persistence;
 
 public class ClientDaoImpl implements IClientDao {
 
-    EntityManagerFactory emf = Persistence.createEntityManagerFactory("unit_clients");
+    EntityManagerFactory emf = Persistence.createEntityManagerFactory("unitClients");
     EntityManager em = emf.createEntityManager();
 
     @Override
