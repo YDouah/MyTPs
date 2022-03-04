@@ -1,0 +1,8 @@
+ma\cigma\pfe\dao\ClientDaoImpl.class
+ApplicationRunner.class
+ma\cigma\pfe\service\IClientService.class
+ma\cigma\pfe\presentation\ClientController.class
+ma\cigma\pfe\service\ClientServiceImpl.class
+ma\cigma\pfe\models\Client.class
+ma\cigma\pfe\dao\IClientDao.class
+ma\cigma\pfe\models\Facture.class
