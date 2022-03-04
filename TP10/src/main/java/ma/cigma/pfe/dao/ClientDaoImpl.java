@@ -4,10 +4,7 @@ import ma.cigma.pfe.models.Client;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import javax.persistence.PersistenceContext;
-import java.util.Collection;
 import java.util.List;
 
 @Repository

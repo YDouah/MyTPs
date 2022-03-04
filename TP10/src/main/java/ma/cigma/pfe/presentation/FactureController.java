@@ -11,6 +11,10 @@ public class FactureController {
     @Autowired
     private IFactureService factureService;
 
+    public FactureController(IFactureService factureService) {
+        this.factureService = factureService;
+    }
+
     public Facture create(Facture facture) {
         return factureService.create(facture);
     }
