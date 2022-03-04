@@ -9,13 +9,12 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.util.List;
 
-@Getter
-@Setter
-@AllArgsConstructor
 @Entity
 @SequenceGenerator(name = "SEQ_CLIENT", initialValue = 1,allocationSize = 1)
-@Table(name = "table_client")
+@Table(name = "T_CLIENT")
 @NoArgsConstructor
+@Getter
+@Setter
 public class Client {
 
     public Client(String name) {
@@ -29,11 +28,21 @@ public class Client {
     @Column
     private String name;
 
-    @Override
-    public String toString() {
-        return "Client{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
-    }
+    @OneToMany(cascade = { CascadeType.PERSIST }, mappedBy = "client")
+    private List<Facture> factures;
+
+    @ManyToMany(cascade = CascadeType.PERSIST)
+    @JoinTable(
+            name = "T_CLIENT_PROMOTION",
+            joinColumns = @JoinColumn(name = "CLIENT_FK", referencedColumnName = "ID"),
+            inverseJoinColumns = @JoinColumn(name = "PROMOTION_FK", referencedColumnName = "ID"))
+    private List<Promotion> promotions;
+
+    @OneToOne(cascade = { CascadeType.PERSIST }, mappedBy = "client")
+    private CarteFidelio carteFidelio;
+
+    @ManyToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "address_id")
+    private Address address;
+
 }

@@ -1,10 +1,13 @@
 package ma.cigma.pfe;
 
-import ma.cigma.pfe.models.Facture;
+import ma.cigma.pfe.models.*;
+import ma.cigma.pfe.presentation.AddressController;
+import ma.cigma.pfe.presentation.ClientController;
 import ma.cigma.pfe.presentation.FactureController;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.Arrays;
 import java.util.Date;
 
 public class ApplicationRunner {
@@ -12,22 +15,42 @@ public class ApplicationRunner {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         FactureController factureController = context.getBean(FactureController.class);
 
-        // Create
-        Facture factureCreated = new Facture(new Date(), 1000d);
-        factureController.create(factureCreated);
-        System.out.println("Facture apres creation : " + factureCreated);
+        // Creation de la facture
+        Facture facture = new Facture(new Date(), 100d);
 
-        // Read
-        Facture factureFound = factureController.getById(factureCreated.getId());
-        System.out.println("Facture trouvee par getById : " + factureFound);
+        // Création des Lignes de facture
+        Produit produit1 = new Produit("Ecran" , 999f, 12);
+        LigneFacture ligneFacture1 = new LigneFacture(facture, produit1, 12);
 
-        // Update
-        Facture factureUpdated = new Facture(factureCreated.getId(), new Date(),1200.75d);
-        factureController.modify(factureUpdated);
-        System.out.println("Facture apres modification : " + factureCreated);
+        Produit produit2 = new Produit("Laptop", 300f, 10);
+        LigneFacture ligneFacture2 = new LigneFacture(facture, produit2, 10);
 
-        // Delete
-        factureController.deleteById(factureUpdated.getId());
+
+        /**
+         * La sauvegarde de la facture impliquera
+         * => la sauvegarde de produit1,produit2, ligneFacture1, ligneFacture2
+         */
+        facture.setLigneFactures(Arrays.asList(ligneFacture1, ligneFacture2));
+        factureController.create(facture);
+
+
+        // TEST 2 ------------------------------------------------------------------
+
+        // Save Address from client
+        ClientController clientController = context.getBean(ClientController.class);
+        Client client1 = new Client("Yassine");
+        Address address1 = new Address("Avenue MED V", "Casa", "Maroc");
+
+        client1.setAddress(address1);
+        clientController.save(client1);
+
+        // Save client from address
+        AddressController addressController = context.getBean(AddressController.class);
+        Address address2 = new Address("Address 1", "Rabat", "Maroc");
+        Client client2 = new Client("HAMZA");
+//
+        address2.setClients(Arrays.asList(client2));
+        addressController.create(address2);
 
     }
 }

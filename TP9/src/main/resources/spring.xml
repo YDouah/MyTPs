@@ -9,4 +9,15 @@
     </bean>
     <bean id="DaoID" class="ma.cigma.pfe.dao.ClientDaoImpl">
     </bean>
+
+    <!--    Address Beans   -->
+    <bean id="addressCtrlID" class="ma.cigma.jee.presentation.AddressController">
+        <property name="addressService" ref="addressServiceID"/>
+    </bean>
+    <bean id="addressServiceID" class="ma.cigma.jee.service.AddressServiceImpl">
+        <property name="addressDao" ref="addressDaoId"/>
+    </bean>
+    <bean id="addressDaoId" class="ma.cigma.jee.dao.AddressDaoImpl">
+    </bean>
+
 </beans>

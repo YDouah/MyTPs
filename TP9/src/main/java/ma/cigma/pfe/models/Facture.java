@@ -1,20 +1,18 @@
 package ma.cigma.pfe.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
-@Setter
-@Getter
-@NoArgsConstructor
-@AllArgsConstructor
 @Entity
-@Table(name = "table_facture")
+@Table(name = "T_FACTURE")
 @SequenceGenerator(name = "SEQ_FACTURE", initialValue = 1, allocationSize = 1)
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
 public class Facture {
 
     public Facture(Date date, Double amount) {
@@ -32,12 +30,11 @@ public class Facture {
     @Column
     private Double amount;
 
-    @Override
-    public String toString() {
-        return "Facture{" +
-                "id=" + id +
-                ", date=" + date +
-                ", amount=" + amount +
-                '}';
-    }
+    @ManyToOne
+    @JoinColumn(name = "client_id")
+    private Client client;
+
+    @OneToMany(cascade = CascadeType.PERSIST, mappedBy = "facture")
+    private List<LigneFacture> ligneFactures;
+
 }
