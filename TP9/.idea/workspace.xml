@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d92e7755-b9d1-4b16-9294-11d84d73d325" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/AddressDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/IAddressDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/CarteFidelio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/FactureProduitId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/LigneFacture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Produit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Promotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/AddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/IAddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP9/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP9/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/ApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/ApplicationRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Facture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP10/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
