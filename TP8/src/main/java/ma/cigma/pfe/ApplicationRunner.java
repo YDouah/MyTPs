@@ -16,8 +16,8 @@ public class ApplicationRunner {
         ctrl.save(new Client("AHMED"));
         ctrl.save(new Client("FARAH"));
 // Test modify use case for client with id==1
-        ctrl.modify(new Client(1L,"new Name"));
-        ctrl.removeById(1L);
-        Client found = ctrl.getById(1L);
+        ctrl.modify(new Client(1,"new Name"));
+        ctrl.removeById(1);
+        Client found = ctrl.getById(1);
     }
 }
