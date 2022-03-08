@@ -5,69 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1fd842e-c92a-4037-9dac-bcb52cff230d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP8/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/app.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/ApplicationRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/doa/ClientDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/doa/FactureDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/doa/IClientDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/doa/IFactureDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/models/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/models/Facture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/presentation/ClientController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/presentation/FactureController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/FactureServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/IClientService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/java/ma/cigma/pfe/service/IFactureService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/resources/log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/src/main/resources/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/target/classes/log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP8/target/classes/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ApplicationRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/dao/AddressDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/dao/ClientDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/dao/FactureDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/dao/IAddressDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/dao/IClientDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/dao/IFactureDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/models/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/models/CarteFidelio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/models/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/models/Facture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/models/FactureProduitId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/models/LigneFacture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/models/Produit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/models/Promotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/presentation/AddressController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/presentation/ClientController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/presentation/FactureController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/service/AddressServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/service/FactureServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/service/IAddressService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/service/IClientService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/java/ma/cigma/pfe/service/IFactureService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/resources/log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/src/main/resources/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../j2ee" beforeDir="false" afterPath="$PROJECT_DIR$/../j2ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEndApplication/src/main/java/ma/cigma/config/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEndApplication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/main/resources/templates/index-client.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEndApplication/src/main/resources/templates/index-client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
