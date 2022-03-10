@@ -19,5 +19,6 @@ public class ApplicationRunner {
         ctrl.modify(new Client(1,"new Name"));
         ctrl.removeById(1);
         Client found = ctrl.getById(1);
+        System.out.println(found);
     }
 }
