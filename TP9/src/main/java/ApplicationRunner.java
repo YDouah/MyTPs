@@ -1,5 +1,3 @@
-package ma.cigma.pfe;
-
 import ma.cigma.pfe.models.*;
 import ma.cigma.pfe.presentation.AddressController;
 import ma.cigma.pfe.presentation.ClientController;

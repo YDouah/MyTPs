@@ -10,6 +10,7 @@ public class ClientController {
     private IClientService service;
 
     public void save(Client clt) {
+        service.save(clt);
     }
 
     public void modify(Client c){
