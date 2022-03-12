@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bde4a0b7-3443-4a5c-90f5-21ee06af0065" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/ApplicationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/AddressDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/FactureDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/IAddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/IClientDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/IFactureDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/MockClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/CarteFidelio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ClientNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ClientVip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/CompanyId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ContactPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Facture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/FactureProduitId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/LigneFacture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Produit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Promotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/FactureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/FactureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/IAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/IClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/IFactureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP11/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TP11/app.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26Hyttli0tHdAAHd2MztfP8ZJJD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TP11" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApplicationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.cigma.pfe.ApplicationRunner" />
+      <module name="TP12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.cigma.pfe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bde4a0b7-3443-4a5c-90f5-21ee06af0065" name="Changes" comment="" />
+      <created>1647095024415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647095024415</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
