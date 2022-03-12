@@ -18,18 +18,22 @@ public class ClientController {
     }
 
     public Client modify(Client client) {
+
         return clientService.modify(client);
     }
 
     public void removeById(long id) {
+
         clientService.removeById(id);
     }
 
     public Client getById(long id) {
+
         return clientService.getById(id);
     }
 
     public List<Client> getAll() {
+
         return clientService.getAll();
     }
 }

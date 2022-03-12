@@ -1,5 +1,3 @@
-package ma.cigma.pfe;
-
 import ma.cigma.pfe.models.Client;
 import ma.cigma.pfe.models.ClientNormal;
 import ma.cigma.pfe.models.ClientVip;
