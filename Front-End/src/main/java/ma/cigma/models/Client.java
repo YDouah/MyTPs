@@ -10,8 +10,10 @@ import lombok.ToString;
 public class Client {
     private long id;
     private String name;
+
     public Client() {
     }
+
     public Client(long id, String name) {
         this.id = id;
         this.name = name;
