@@ -14,6 +14,7 @@ import javax.persistence.Table;
 @Table(name = "T-CLIENT-VIP")
 @NoArgsConstructor
 @Entity
+
 public class ClientVip extends Client{
     private String preferences;
 

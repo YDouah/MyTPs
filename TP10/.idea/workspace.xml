@@ -7,8 +7,16 @@
     <list default="true" id="a138e236-69d0-41cb-978c-a8b628717b27" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplicationRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/ClientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/ClientDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/IClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/IClientDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ClientNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ClientNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ClientVip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ClientVip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +71,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TP9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="ApplicationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

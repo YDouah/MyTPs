@@ -11,8 +11,8 @@ public class ApplicationRunner {
         ClientController clientController = context.getBean(ClientController.class);
 
         Client client = new Client("Mohamed");
-        Client clientVip = new ClientVip("Moha", "VIP");
-        Client clientNormal = new ClientNormal("Youssef", 1);
+        Client clientVip = new ClientVip("Marco", "VIP");
+        Client clientNormal = new ClientNormal("John", 1);
 
         clientController.save(client);
         clientController.save(clientVip);

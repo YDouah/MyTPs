@@ -11,4 +11,3 @@ public interface IClientDao {
     Client findById(long id);
     List<Client> findAll();
 }
-

@@ -10,8 +10,8 @@ import javax.persistence.Table;
 @Table(name = "T-CLIENT-NORMAL")
 @Data
 @NoArgsConstructor
-public class ClientNormal extends Client {
 
+public class ClientNormal extends Client {
     private int importance;
 
     public ClientNormal(String name, int importance) {

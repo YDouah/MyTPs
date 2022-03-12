@@ -17,12 +17,14 @@ public class ClientServiceImpl implements IClientService{
     @Override
     @Transactional
     public Client save(Client client) {
+
         return clientDao.save(client);
     }
 
     @Override
     @Transactional
     public Client modify(Client client) {
+
         return clientDao.update(client);
     }
 
@@ -35,12 +37,14 @@ public class ClientServiceImpl implements IClientService{
     @Override
     @Transactional
     public Client getById(long id) {
+
         return clientDao.findById(id);
     }
 
     @Override
     @Transactional
     public List<Client> getAll() {
+
         return clientDao.findAll();
     }
 }

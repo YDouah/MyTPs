@@ -9,13 +9,13 @@ import java.util.List;
 
 @Entity
 @SequenceGenerator(name = "SEQ_CLIENT", initialValue = 1,allocationSize = 1)
-@Table(name = "T_CLIENT")
+@Table(name = "T-CLIENT")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @NoArgsConstructor
 @Getter
 @Setter
-public class Client {
 
+public class Client {
     public Client(String name) {
         this.name = name;
     }
