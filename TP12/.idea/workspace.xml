@@ -5,45 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bde4a0b7-3443-4a5c-90f5-21ee06af0065" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/ApplicationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/AddressDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/FactureDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/IAddressDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/IClientDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/IFactureDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/dao/MockClients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/CarteFidelio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ClientNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ClientVip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/CompanyId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/ContactPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Facture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/FactureProduitId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/LigneFacture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Produit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/models/Promotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/presentation/FactureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/AddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/ClientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/FactureServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/IAddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/IClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/cigma/pfe/service/IFactureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP11/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TP11/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/main/java/ma/cigma/Controllers/ClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/main/java/ma/cigma/FrontEndApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/main/java/ma/cigma/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/main/java/ma/cigma/config/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/main/java/ma/cigma/models/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/main/resources/templates/index-client.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEndApplication/src/test/java/ma/cigma/FrontEndApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TP11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Front-End" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">

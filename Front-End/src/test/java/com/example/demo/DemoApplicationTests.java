@@ -1,10 +1,10 @@
-package ma.cigma;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FrontEndApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
