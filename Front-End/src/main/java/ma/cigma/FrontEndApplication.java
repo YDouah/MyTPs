@@ -16,4 +16,6 @@ public class FrontEndApplication {
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	}
+
+	
 }

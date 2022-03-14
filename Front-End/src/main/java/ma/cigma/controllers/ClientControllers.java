@@ -28,11 +28,7 @@ public class ClientControllers {
     }
 
     @PostMapping(value = "/add-client")
-    public String addClient(Model model,
-                            @ModelAttribute("client") Client
-                                    client) {
-        restTemplate.postForObject(
-                apiUrl+"/clients/add",
+    public String addClient(Model model, @ModelAttribute("client") Client client) {restTemplate.postForObject(apiUrl+"/clients/add",
                 client,
                 Client.class);
         return "redirect:/clients";
