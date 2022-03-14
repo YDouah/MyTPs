@@ -50,7 +50,7 @@
 			<artifactId>bootstrap</artifactId>
 			<version>4.0.0-2</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
 -->
 		<dependency>
