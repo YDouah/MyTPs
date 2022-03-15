@@ -3,7 +3,7 @@ package ma.cigma.controllers;
 import ma.cigma.models.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -13,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
+@Controller
 public class ClientControllers {
 
     @Value("${api.url}")
@@ -29,15 +30,15 @@ public class ClientControllers {
         return "index-client";
     }
 
-    @PostMapping(value = "/add-client")
-    public String addClient(Model model, @ModelAttribute("client") Client client) {
-        restTemplate.postForObject(apiUrl+"/clients/add", client, Client.class);
-        return "redirect:/clients";
-    }
-    @GetMapping(value = {"/delete-client/{id}"})
-    public String deleteClientById(Model model, @PathVariable long id) {
-        restTemplate.delete(apiUrl+"/clients/"+id);
+    @PostMapping(value = {"/add-client"})
+    public String addClient(Model model, @ModelAttribute Client client) {
+        restTemplate.postForObject(apiUrl + "/clients", client, Client.class);
         return "redirect:/clients";
     }
 
+    @GetMapping(value = {"/delete-client/{id}"})
+    public String deleteClientById(Model model, @PathVariable long id) {
+        restTemplate.delete(apiUrl + "/clients/" + id);
+        return "redirect:/clients";
+    }
 }
