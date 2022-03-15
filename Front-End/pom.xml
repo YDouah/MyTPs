@@ -12,7 +12,7 @@
 	<artifactId>Front-End</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Front-End</name>
-	<description>Application Front pour consommer les services REST du TP7</description>
+	<description>TP13</description>
 	<properties>
 		<java.version>8</java.version>
 	</properties>
