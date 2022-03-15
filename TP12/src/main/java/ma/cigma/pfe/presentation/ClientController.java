@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/client")
+@RequestMapping("/clients")
 public class ClientController {
 
     @Autowired
@@ -34,7 +34,7 @@ public class ClientController {
         return clientService.getById(id);
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public List<Client> getAll() {
         return clientService.getAll();
     }
