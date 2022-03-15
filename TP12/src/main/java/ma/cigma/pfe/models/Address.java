@@ -8,7 +8,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name = "T-ADDRESS")
+@Table(name = "T_ADDRESS")
 @SequenceGenerator(name = "SEQ_ADDRESS", allocationSize = 1)
 @Setter
 @Getter
