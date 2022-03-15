@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "T-CLIENT-NORMAL")
+@Table(name = "T_CLIENT_NORMAL")
 @Data
 @NoArgsConstructor
 

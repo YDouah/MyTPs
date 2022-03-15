@@ -9,7 +9,7 @@ import java.util.List;
 
 @Entity
 @SequenceGenerator(name = "SEQ_CLIENT", initialValue = 1,allocationSize = 1)
-@Table(name = "T-CLIENT")
+@Table(name = "T_CLIENT")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @NoArgsConstructor
 @Getter

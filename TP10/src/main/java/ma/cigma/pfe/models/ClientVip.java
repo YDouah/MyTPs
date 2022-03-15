@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Setter
 @Getter
 @Data
-@Table(name = "T-CLIENT-VIP")
+@Table(name = "T_CLIENT_VIP")
 @NoArgsConstructor
 @Entity
 
