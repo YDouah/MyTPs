@@ -56,9 +56,7 @@
                     <input type="text" th:field="*{name}" id="name"
                            placeholder="Name" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-success">Add
-                    Client
-                </button>
+                <button type="submit" class="btn btn-success">Add Client</button>
             </form>
         </div>
     </div>
@@ -86,7 +84,7 @@
                     <td th:text="${client.name}"></td>
                     <td>
                         <a class="btn btn-primary"
-                           th:href="@{|/show-client/${client.id}|}">
+                           th:href="@{|/edit-client/${client.id}|}">
                             <i class="fa fa-edit fa-lg"></i> Edit</a>
                         <a class="btn btn-danger"
                            th:href="@{|/delete-client/${client.id}|}">

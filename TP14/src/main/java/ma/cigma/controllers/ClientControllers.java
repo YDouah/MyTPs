@@ -41,4 +41,18 @@ public class ClientControllers {
         restTemplate.delete(apiUrl + "/clients/" + id);
         return "redirect:/clients";
     }
+
+//    // request mapping method to get edit form
+//    @GetMapping(path = "/edit-client")
+//    public String getEditForm(Model model) {
+//        model.addAttribute("client", restTemplate.getClientHttpRequestInitializers());
+//        return "edit-form";
+//    }
+//
+//    // request mapping method to submit edited details
+//    @PostMapping(value = "/edit-client")
+//    public String submitForm(@ModelAttribute Client client, Model model) {
+//        model.addAttribute("clients", client);
+//        return "redirect:/clients";
+//    }
 }

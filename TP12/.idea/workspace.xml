@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bde4a0b7-3443-4a5c-90f5-21ee06af0065" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../TP14/src/main/resources/templates/edit-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP14/src/main/java/ma/cigma/controllers/ClientControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP14/src/main/java/ma/cigma/controllers/ClientControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP14/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP14/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP14/src/main/resources/templates/index-client.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TP14/src/main/resources/templates/index-client.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
