@@ -23,4 +23,5 @@ public class FrontEndApplication {
 	PasswordEncoder bCryptPasswordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
+
 }

@@ -43,8 +43,7 @@
 
     <div class="row">
         <div class="col-sm-8">
-            <form action="#" th:action="@{/add-client}"
-                  th:object="${client}" method="post">
+            <form action="#" th:action="@{/add}" th:object="${client}" method="post">
                 <div class="form-group">
                     <input type="text" th:field="*{id}" id="id"
                            placeholder="Id" readonly class="form-control">
@@ -61,37 +60,32 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-12">
-            <table>
-                <thead>
+    <div align="center">
+            <table border="1">
                 <tr>
-                    <th scope="col">Photo</th>
-                    <th scope="col">Id</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Actions</th>
+                    <td align="center">Id</td>
+                    <td align="center">Photo</td>
+                    <td align="center">Name</td>
+                    <td align="center">Action</td>
                 </tr>
-                </thead>
-                <tbody>
                 <tr th:each="client : ${clients}">
+                    <td th:text="${client.id}"></td>
                     <td>
                         <div class="event-img">
                             <img
-                                    src="https://bootdey.com/img/Content/avatar/avatar3.png" alt=""/>
+                                    src="https://bootdey.com/img/Content/avatar/avatar1.png" alt=""/>
                         </div>
                     </td>
-                    <td th:text="${client.id}"></td>
                     <td th:text="${client.name}"></td>
                     <td>
                         <a class="btn btn-primary"
-                           th:href="@{|/edit-client/${client.id}|}">
+                           th:href="@{|/edit/${client.id}|}">
                             <i class="fa fa-edit fa-lg"></i> Edit</a>
                         <a class="btn btn-danger"
-                           th:href="@{|/delete-client/${client.id}|}">
+                           th:href="@{|/delete/${client.id}|}">
                             <i class="fa fa-trash fa-lg"></i> Delete</a>
                     </td>
                 </tr>
-                </tbody>
             </table>
         </div>
     </div>

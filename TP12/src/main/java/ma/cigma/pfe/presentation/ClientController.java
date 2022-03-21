@@ -19,12 +19,12 @@ public class ClientController {
         return clientService.save(client);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     public Client modify(@RequestBody Client client) {
         return clientService.modify(client);
     }
 
-    @DeleteMapping("{id}")
+    @DeleteMapping("/{id}")
     public void removeById(@PathVariable long id) {
         clientService.removeById(id);
     }

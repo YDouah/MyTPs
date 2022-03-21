@@ -27,23 +27,6 @@ public class Client {
     @Column
     private String name;
 
-    @OneToMany(cascade = { CascadeType.PERSIST }, mappedBy = "client")
-    private List<Facture> factures;
-
-    @ManyToMany(cascade = CascadeType.PERSIST)
-    @JoinTable(
-            name = "T_CLIENT_PROMOTION",
-            joinColumns = @JoinColumn(name = "CLIENT_FK", referencedColumnName = "ID"),
-            inverseJoinColumns = @JoinColumn(name = "PROMOTION_FK", referencedColumnName = "ID"))
-    private List<Promotion> promotions;
-
-    @OneToOne(cascade = { CascadeType.PERSIST }, mappedBy = "client")
-    private CarteFidelio carteFidelio;
-
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "address_id")
-    private Address address;
-
     @Override
     public String toString() {
         return "Client{" +
