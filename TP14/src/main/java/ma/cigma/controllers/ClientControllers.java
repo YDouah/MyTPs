@@ -4,6 +4,7 @@ import com.sun.corba.se.impl.interceptors.ClientRequestInfoImpl;
 import ma.cigma.models.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -48,19 +49,19 @@ public class ClientControllers {
     }
 
 //    Update Client
-    @GetMapping("/edit/{id}")
+    @GetMapping(path = "/show")
     public String showClient(Model model, @PathVariable long id){
-        Client client = restTemplate.getForObject(apiUrl + "/clients/edit" + id, Client.class);
-        model.addAttribute("client", client);
+
+        Client client = restTemplate.getForObject(apiUrl + "/clients/show" + id, Client.class) ;
+        model.addAttribute("clients", client);
+
         return "edit-form";
     }
 
 //    update Client
-//    @PostMapping(path = "/edit")
-//    public String submitForm(Model model, @ModelAttribute Client client){
-//    restTemplate.put(apiUrl+"/clients/"+client.getId(), client, Client.class);
-//    model.addAttribute("clients", client);
-//
-//    return "redirect:/clients";
-//    }
+    @PostMapping(path = "/edit")
+    public String submitForm(Model model, @ModelAttribute Client client){
+
+    return "redirect:/clients";
+    }
 }

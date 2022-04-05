@@ -62,7 +62,7 @@
                     <td style="width: 25%" th:text="${client.name}"></td>
                     <td style="width: 25%" align="center" sec:authorize="hasRole('ADMIN')">
                         <a class="btn btn-primary"
-                           th:href="@{/edit/${client.id}|}">
+                           th:href="@{/show}">
                             <i  class="fa fa-edit fa-lg"></i>Edit</a>
                         <a  class="btn btn-danger"
                            th:href="@{|/delete/${client.id}|}" >

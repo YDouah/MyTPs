@@ -29,7 +29,7 @@ public class ClientController {
         clientService.removeById(id);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/show")
     public Client getById(@PathVariable long id) {
         return clientService.getById(id);
     }

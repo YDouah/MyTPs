@@ -25,17 +25,24 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .withUser("Teacher").password(passwordEncoder.encode("qwerty")).roles("ADMIN");
     }
 
+    // Authorization
 //    @Override
 //    protected void configure(HttpSecurity http) throws Exception {
 //        http
 //                .authorizeRequests()
 //                .antMatchers("/add")
-//                .hasRole("ADMIN");
+//                .hasRole("ADMIN")
+//                .antMatchers("/add")
+//                .hasRole("USER")
+//                .antMatchers("/delete", "/show")
+//                .hasRole("ADMIN")
+//                .antMatchers("/clients","/")
+//                .permitAll()
+//                .anyRequest()
+//                .authenticated()
+//                .and()
+//                .formLogin()
+//                .defaultSuccessUrl("/clients");
 //    }
-
-
-    // Authorization
-
-
 
 }
