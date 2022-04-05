@@ -11,4 +11,6 @@ public interface IClientService {
     Client getById(long id);
     List<Client> getAll();
     Client findByName(String name);
+
+    Client getOne(long id);
 }

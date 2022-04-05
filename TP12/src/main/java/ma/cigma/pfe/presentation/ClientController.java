@@ -14,12 +14,12 @@ public class ClientController {
     @Autowired
     private IClientService clientService;
 
-    @PostMapping
+    @PostMapping("/add")
     public Client save(@RequestBody Client client) {
         return clientService.save(client);
     }
 
-    @PutMapping("/edit")
+    @PutMapping("/{id}")
     public Client modify(@RequestBody Client client) {
         return clientService.modify(client);
     }
@@ -29,7 +29,7 @@ public class ClientController {
         clientService.removeById(id);
     }
 
-    @GetMapping("/show")
+    @GetMapping("/{id}")
     public Client getById(@PathVariable long id) {
         return clientService.getById(id);
     }
@@ -39,6 +39,7 @@ public class ClientController {
         return clientService.getAll();
     }
 
+    @PutMapping("/edit")
     public Client findByName(String name) {
         return clientService.findByName(name);
     }

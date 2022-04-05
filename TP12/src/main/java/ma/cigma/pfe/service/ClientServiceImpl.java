@@ -29,6 +29,11 @@ public class ClientServiceImpl implements IClientService{
     }
 
     @Override
+    public List<Client> getAll() {
+        return (List<Client>) clientDao.findAll();
+    }
+
+    @Override
     @Transactional
     public void removeById(long id) {
         clientDao.deleteById(id);
@@ -40,12 +45,12 @@ public class ClientServiceImpl implements IClientService{
     }
 
     @Override
-    public List<Client> getAll() {
-        return (List<Client>) clientDao.findAll();
+    public Client findByName(String name) {
+        return clientDao.findByName(name);
     }
 
     @Override
-    public Client findByName(String name) {
-        return clientDao.findByName(name);
+    public Client getOne(long id) {
+        return null;
     }
 }

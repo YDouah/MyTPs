@@ -62,10 +62,10 @@
                     <td style="width: 25%" th:text="${client.name}"></td>
                     <td style="width: 25%" align="center" sec:authorize="hasRole('ADMIN')">
                         <a class="btn btn-primary"
-                           th:href="@{/show}">
+                           th:href="@{/edit/{id}(id=${client.id})} " >
                             <i  class="fa fa-edit fa-lg"></i>Edit</a>
                         <a  class="btn btn-danger"
-                           th:href="@{|/delete/${client.id}|}" >
+                           th:href="@{/delete/{id}(id=${client.id})}" >
                             <i class="fa fa-trash fa-lg"></i>Delete</a>
                     </td>
                 </tr>

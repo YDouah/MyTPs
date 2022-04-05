@@ -7,12 +7,16 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 
+import javax.jws.WebParam;
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class ClientControllers {
@@ -35,7 +39,7 @@ public class ClientControllers {
 //    ADD Client
     @PostMapping("/add")
     public String addClient(Model model, @ModelAttribute Client client) {
-        restTemplate.postForObject(apiUrl + "/clients", client, Client.class);
+        restTemplate.postForObject(apiUrl + "/clients/add", client, Client.class);
 
         return "redirect:/clients";
     }
@@ -49,19 +53,17 @@ public class ClientControllers {
     }
 
 //    Update Client
-    @GetMapping(path = "/show")
-    public String showClient(Model model, @PathVariable long id){
-
-        Client client = restTemplate.getForObject(apiUrl + "/clients/show" + id, Client.class) ;
-        model.addAttribute("clients", client);
-
-        return "edit-form";
+    @RequestMapping(path = {"/edit","/edit/{id}"})
+    public String editClientById(@PathVariable("id") long id, Model model ) {
+        Client c = restTemplate.getForObject(apiUrl + "/clients/" + id , Client.class);
+        model.addAttribute("client", c );
+            return "edit-form";
     }
 
 //    update Client
-    @PostMapping(path = "/edit")
-    public String submitForm(Model model, @ModelAttribute Client client){
-
-    return "redirect:/clients";
-    }
+//    @RequestMapping(value = "/edit", method = RequestMethod.POST)
+//    public String submitForm(@ModelAttribute("client") Client client, BindingResult result){
+//
+//    return "redirect:/clients";
+//    }
 }
