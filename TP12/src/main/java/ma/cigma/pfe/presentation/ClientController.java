@@ -19,7 +19,7 @@ public class ClientController {
         return clientService.save(client);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/edit")
     public Client modify(@RequestBody Client client) {
         return clientService.modify(client);
     }

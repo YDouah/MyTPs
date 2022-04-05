@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8"/>
     <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
@@ -21,19 +21,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                <li sec:authorize="isAuthenticated()" class="nav-item">
+                    <a class="btn btn-outline-light"
+                       th:href="@{/logout}">Log Out</a>
                 </li>
             </ul>
         </div>
@@ -41,7 +31,7 @@
 </nav>
 <div class="container">
 
-    <div class="row">
+    <div class="row" >
         <div class="col-sm-8">
             <form action="#" th:action="@{/add}" th:object="${client}" method="post">
                 <div class="form-group">
@@ -50,40 +40,33 @@
                     <span th:if="${#fields.hasErrors('id')}"
                           th:errors="*{id}"></span>
                 </div>
-                <div class="form-group">
+                <div  class="form-group">
                     <label for="name">Name</label>
                     <input type="text" th:field="*{name}" id="name"
                            placeholder="Name" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-success">Add Client</button>
+                <button  type="submit" class="btn btn-success">Add Client</button>
             </form>
         </div>
     </div>
 
     <div align="center">
-            <table border="1">
+            <table border="1" style="width: 70%">
                 <tr>
-                    <td align="center">Id</td>
-                    <td align="center">Photo</td>
-                    <td align="center">Name</td>
-                    <td align="center">Action</td>
+                    <td style="width: 17%"  align="center"><strong>ID</strong></td>
+                    <td style="width: 25%" align="center"><strong>Name</strong></td>
+                    <td style="width: 25%" sec:authorize="hasRole('ADMIN')" align="center"><strong>Action</strong></td>
                 </tr>
                 <tr th:each="client : ${clients}">
-                    <td th:text="${client.id}"></td>
-                    <td>
-                        <div class="event-img">
-                            <img
-                                    src="https://bootdey.com/img/Content/avatar/avatar1.png" alt=""/>
-                        </div>
-                    </td>
-                    <td th:text="${client.name}"></td>
-                    <td>
+                    <td style="width: 17%" th:text="${client.id}"></td>
+                    <td style="width: 25%" th:text="${client.name}"></td>
+                    <td style="width: 25%" align="center" sec:authorize="hasRole('ADMIN')">
                         <a class="btn btn-primary"
-                           th:href="@{|/edit/${client.id}|}">
-                            <i class="fa fa-edit fa-lg"></i> Edit</a>
-                        <a class="btn btn-danger"
-                           th:href="@{|/delete/${client.id}|}">
-                            <i class="fa fa-trash fa-lg"></i> Delete</a>
+                           th:href="@{/edit/${client.id}|}">
+                            <i  class="fa fa-edit fa-lg"></i>Edit</a>
+                        <a  class="btn btn-danger"
+                           th:href="@{|/delete/${client.id}|}" >
+                            <i class="fa fa-trash fa-lg"></i>Delete</a>
                     </td>
                 </tr>
             </table>
