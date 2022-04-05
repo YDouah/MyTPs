@@ -53,7 +53,7 @@ public class ClientControllers {
     }
 
 //    Update Client
-    @RequestMapping(path = {"/edit","/edit/{id}"})
+    @GetMapping(path = {"/edit","/edit/{id}"})
     public String editClientById(@PathVariable("id") long id, Model model ) {
         Client c = restTemplate.getForObject(apiUrl + "/clients/" + id , Client.class);
         model.addAttribute("client", c );
@@ -61,9 +61,10 @@ public class ClientControllers {
     }
 
 //    update Client
-//    @RequestMapping(value = "/edit", method = RequestMethod.POST)
-//    public String submitForm(@ModelAttribute("client") Client client, BindingResult result){
-//
-//    return "redirect:/clients";
-//    }
+    @PostMapping(value = "/edit")
+    public String submitForm(@ModelAttribute("client") Client client){
+        restTemplate.put(apiUrl + "/clients/" + client.getId(), client);
+
+        return "redirect:/clients";
+    }
 }
